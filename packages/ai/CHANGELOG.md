@@ -1,5 +1,15 @@
 # ai
 
+## 5.0.223
+
+### Patch Changes
+
+- 7a6bdbc: Prevent validated downloads on Node.js from reaching private or internal services through DNS aliases or DNS rebinding by validating and pinning every resolved address at connection time.
+- c5e11c6: Preserve provider metadata from empty text deltas in `streamText`.
+- Updated dependencies [7a6bdbc]
+  - @ai-sdk/provider-utils@3.0.31
+  - @ai-sdk/gateway@2.0.122
+
 ## 5.0.222
 
 ### Patch Changes
